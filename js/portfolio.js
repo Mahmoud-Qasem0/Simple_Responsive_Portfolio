@@ -30,7 +30,10 @@ $(window).on("scroll load", function(){
 });
 
 
+// Date updating in Footer
+let year = document.getElementById("year");
 
+year.innerHTML = new Date().getFullYear();
 
 
 
